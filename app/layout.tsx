@@ -59,9 +59,6 @@ export default function RootLayout({
           
         <meta name="google-site-verification"
         content="ad-qcNq_GrrumhwGtiGccvsvrFy2TsdRtVJyqWBiKZk" />
-
-        
-        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
         
       </head>
       <link rel="shortcut icon" href="download.png" type="image/x-icon" />
@@ -69,16 +66,6 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
-        
-        <amp-ad
-     layout="fixed"
-     width="300"
-     height="150"
-     type="adsense"
-     data-ad-client="ca-pub-5670862530868386"
-     data-ad-slot="8052834509">
-     </amp-ad>
-        
       </body>
     </html>
   )
