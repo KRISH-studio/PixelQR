@@ -50,8 +50,13 @@ export default function RootLayout({
             `,
           }}
         />
-        <meta name="google-adsense-account" content="ca-pub-5670862530868386">
-        <meta name="google-site-verification" content="ad-qcNq_GrrumhwGtiGccvsvrFy2TsdRtVJyqWBiKZk" />
+        
+        <meta name="google-adsense-account"
+          content="ca-pub-5670862530868386"/>
+          
+        <meta name="google-site-verification"
+        content="ad-qcNq_GrrumhwGtiGccvsvrFy2TsdRtVJyqWBiKZk" />
+          
       </head>
       <link rel="shortcut icon" href="download.png" type="image/x-icon" />
       <body className={inter.className}>
