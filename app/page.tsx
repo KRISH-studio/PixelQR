@@ -21,7 +21,6 @@ export default function Home() {
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <InstagramIcon className="size-5" />
-              <span className="sr-only">GitHub</span>
             </a>
 
             <a
@@ -31,7 +30,6 @@ export default function Home() {
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <TwitterIcon className="size-5" />
-              <span className="sr-only">GitHub</span>
             </a>
 
               <a
@@ -41,7 +39,6 @@ export default function Home() {
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <LinkedinIcon className="size-5" />
-              <span className="sr-only">GitHub</span>
             </a>
 
             <a
@@ -51,7 +48,6 @@ export default function Home() {
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <GithubIcon className="size-5" />
-              <span className="sr-only">GitHub</span>
             </a>
 
             <ModeToggle />
