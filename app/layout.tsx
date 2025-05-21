@@ -59,7 +59,10 @@ export default function RootLayout({
           
         <meta name="google-site-verification"
         content="ad-qcNq_GrrumhwGtiGccvsvrFy2TsdRtVJyqWBiKZk" />
-          
+
+        
+        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+        
       </head>
       <link rel="shortcut icon" href="download.png" type="image/x-icon" />
       <body className={inter.className}>
