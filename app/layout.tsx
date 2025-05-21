@@ -69,6 +69,16 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
+        
+        <amp-ad
+     layout="fixed"
+     width="300"
+     height="150"
+     type="adsense"
+     data-ad-client="ca-pub-5670862530868386"
+     data-ad-slot="8052834509">
+     </amp-ad>
+        
       </body>
     </html>
   )
