@@ -60,6 +60,18 @@ export default function Home() {
 
         <footer className="mt-16 text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} Pixel QR. All rights reserved.</p>
+          
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5670862530868386"
+             crossorigin="anonymous"></script>
+        <!-- Ads -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:150px"
+             data-ad-client="ca-pub-5670862530868386"
+             data-ad-slot="8052834509"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+          
         </footer>
       </div>
     </main>
