@@ -38,18 +38,15 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
 
-         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0BCTTH4GWL"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-0BCTTH4GWL');
-            `,
-          }}
-        />
+          {/*<!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S2ZF3J8RJ1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-S2ZF3J8RJ1');
+        </script>
         
         <meta name="google-site-verification" content="ad-qcNq_GrrumhwGtiGccvsvrFy2TsdRtVJyqWBiKZk" />
       </head>
