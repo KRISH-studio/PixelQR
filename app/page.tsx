@@ -62,6 +62,20 @@ export default function Home() {
           <p>© {new Date().getFullYear()} Pixel QR. All rights reserved.</p>
         </footer>
       </div>
+      
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5670862530868386"
+           crossorigin="anonymous"></script>
+      <!-- Ads -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-5670862530868386"
+           data-ad-slot="8052834509"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+  
     </main>
   )
 }
