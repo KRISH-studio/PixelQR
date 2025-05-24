@@ -50,17 +50,6 @@ export default function RootLayout({
             `,
           }}
         />
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S2ZF3J8RJ1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-S2ZF3J8RJ1');
-</script>
-
-        
           <meta name="google-adsense-account"
           content="ca-pub-5670862530868386"/>
           
